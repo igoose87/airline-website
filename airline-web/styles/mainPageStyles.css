@@ -33,6 +33,12 @@ header {
     width: 50vw;
 }
 
+.logo {
+    height: 100%;
+    width: 10%;
+    margin-left: 25px;
+}
+
 .right_header {
     display: flex;
     flex-direction: column;
