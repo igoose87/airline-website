@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #041542;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Comfortaa, Calibri, serif;
+    overflow-y: hidden;
+    overflow-x: auto;
+    color: #ffffff;
+}
+
+body a {
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+    border-bottom: solid white 3px;
+}
+
+.left_header {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.logo {
+    height: 100%;
+    width: 10%;
+    margin-left: 25px;
+}
+
+.right_header {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.right_header_up {
+    display: flex;
+    margin: 10px 25px 0;
+    justify-content: end;
+    font-size: 15px;
+}
+
+.right_header_up a {
+    text-decoration: none;
+    margin: 0 20px 0;
+}
+
+.right_header_up a:hover {
+    color: #DDDDDDE0;
+}
+
+.right_header_up_lang{
+    display: flex;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.lang_world_pic {
+    height: 18px;
+    width: 18px;
+}
+
+.lang_en_text {
+    margin-left: -50px;
+}
+
+.right_header_down {
+    display: flex;
+    margin: 15px 0 0;
+    justify-content: end;
+    font-size: 25px;
+}
+
+.right_header_down a {
+    text-decoration: none;
+    margin: 0 10px 0;
+}
+
+.right_header_down a:hover {
+    color: #DDDDDDE0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90px;
+    border-top: solid #ffffff 3px;
+}
+
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.top_footer a {
+    text-decoration: none;
+    margin: 0 100px 0;
+}
+
+.top_footer a:hover {
+    color: #DDDDDDE0;
+}
+
+.bottom_footer {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.bottom_footer p {
+    font-size: 15px;
+    user-select: none;
+}
