@@ -10,8 +10,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Comfortaa, Calibri, serif;
-    overflow-y: hidden;
-    overflow-x: auto;
     color: #ffffff;
 }
 
