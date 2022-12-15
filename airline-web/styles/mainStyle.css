@@ -61,21 +61,6 @@ header {
     color: #DDDDDDE0;
 }
 
-.right_header_up_lang{
-    display: flex;
-    margin: 0;
-    padding-left: 15px;
-}
-
-.lang_world_pic {
-    height: 18px;
-    width: 18px;
-}
-
-.lang_en_text {
-    margin-left: -50px;
-}
-
 .right_header_down {
     display: flex;
     margin: 15px 0 0;
