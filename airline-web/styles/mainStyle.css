@@ -17,24 +17,29 @@ body a {
     color: #fff;
 }
 
+body a:hover {
+    color: #DDDDDDE0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 80px;
+    height: 5rem;
     border-bottom: solid white 3px;
 }
 
 .left_header {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 50vw;
+    font-size: 3rem;
 }
 
-.logo {
-    height: 100%;
-    width: 10%;
-    margin-left: 25px;
+.left_header a {
+    text-decoration: none;
+    margin-left: 2%;
 }
 
 .right_header {
@@ -47,7 +52,7 @@ header {
     display: flex;
     margin: 10px 25px 0;
     justify-content: end;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .right_header_up a {
@@ -55,15 +60,11 @@ header {
     margin: 0 20px 0;
 }
 
-.right_header_up a:hover {
-    color: #DDDDDDE0;
-}
-
 .right_header_down {
     display: flex;
     margin: 15px 0 0;
     justify-content: end;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .right_header_down a {
@@ -71,23 +72,19 @@ header {
     margin: 0 10px 0;
 }
 
-.right_header_down a:hover {
-    color: #DDDDDDE0;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 90px;
+    height: 5rem;
     border-top: solid #ffffff 3px;
+    font-size: 1.25rem;
 }
 
 .top_footer {
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px;
-    font-size: 20px;
+    margin: 1.25rem 10px;
 }
 
 .top_footer a {
@@ -95,18 +92,14 @@ footer {
     margin: 0 100px 0;
 }
 
-.top_footer a:hover {
-    color: #DDDDDDE0;
-}
-
 .bottom_footer {
     display: flex;
     justify-content: center;
     margin-left: -50px;
-    margin-top: -20px;
+    margin-top: -1.25rem;
 }
 
 .bottom_footer p {
-    font-size: 15px;
+    font-size: 0.75rem;
     user-select: none;
 }
