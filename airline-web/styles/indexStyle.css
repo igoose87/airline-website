@@ -11,14 +11,14 @@ main {
 }
 
 .tagline p {
-    font-size: 72px;
+    font-size: 4vw;
     text-align: center;
     text-transform: uppercase;
 }
 
 .windows {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 

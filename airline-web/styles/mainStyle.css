@@ -16,7 +16,7 @@ body{
 }
 
 body a {
-    color: #fff;
+    color: #ffffff;
 }
 
 body a:hover {
@@ -29,6 +29,7 @@ header {
     width: 100vw;
     height: 5rem;
     border-bottom: solid white 3px;
+    white-space: nowrap;
 }
 
 .left_header {
@@ -36,7 +37,7 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 50vw;
-    font-size: 3rem;
+    font-size: 2vw;
 }
 
 .left_header a {
@@ -54,7 +55,7 @@ header {
     display: flex;
     margin: 10px 25px 0;
     justify-content: end;
-    font-size: 1rem;
+    font-size: 0.75vw;
 }
 
 .right_header_up a {
@@ -66,7 +67,7 @@ header {
     display: flex;
     margin: 15px 0 0;
     justify-content: end;
-    font-size: 1.5rem;
+    font-size: 1.25vw;
 }
 
 .right_header_down a {
@@ -80,7 +81,8 @@ footer {
     width: 100vw;
     height: 5rem;
     border-top: solid #ffffff 3px;
-    font-size: 1.25rem;
+    font-size: 0.9vw;
+    white-space: nowrap;
 }
 
 .top_footer {
@@ -102,6 +104,6 @@ footer {
 }
 
 .bottom_footer p {
-    font-size: 0.75rem;
+    font-size: 0.7vw;
     user-select: none;
 }
