@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 5rem;
+    height: 5.25rem;
     border-bottom: solid white 3px;
     white-space: nowrap;
 }
@@ -37,7 +37,8 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 50vw;
-    font-size: 2vw;
+    font-size: 48px;
+    margin-bottom: 2px;
 }
 
 .left_header a {
@@ -49,13 +50,14 @@ header {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    margin-bottom: 2px;
 }
 
 .right_header_up {
     display: flex;
     margin: 10px 25px 0;
     justify-content: end;
-    font-size: 0.75vw;
+    font-size: 16px;
 }
 
 .right_header_up a {
@@ -67,7 +69,7 @@ header {
     display: flex;
     margin: 15px 0 0;
     justify-content: end;
-    font-size: 1.25vw;
+    font-size: 32px;
 }
 
 .right_header_down a {
@@ -81,14 +83,14 @@ footer {
     width: 100vw;
     height: 5rem;
     border-top: solid #ffffff 3px;
-    font-size: 0.9vw;
+    font-size: 20px;
     white-space: nowrap;
 }
 
 .top_footer {
     display: flex;
     justify-content: space-between;
-    margin: 1.25rem 10px;
+    margin: 20px 10px;
 }
 
 .top_footer a {
@@ -104,6 +106,6 @@ footer {
 }
 
 .bottom_footer p {
-    font-size: 0.7vw;
+    font-size: 12px;
     user-select: none;
 }

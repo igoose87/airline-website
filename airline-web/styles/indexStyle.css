@@ -7,11 +7,11 @@ main {
 .tagline {
     display: flex;
     justify-content: center;
-    margin-top: -550px;
+    margin-top: -500px;
 }
 
 .tagline p {
-    font-size: 4vw;
+    font-size: 64px;
     text-align: center;
     text-transform: uppercase;
 }
