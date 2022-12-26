@@ -5,78 +5,107 @@
     <meta name="author" content="iGoose Airlines">
     <meta name="description" content="Fly anywhere in the world with our airline">
     <meta name="keywords" content="iGoose, airlines, plane, tickets, travelling, booking, flight">
-    <link href="../styles/indexStyle.css" rel="stylesheet">
-    <link href="../styles/mainStyle.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Comfortaa"
     >
     <title>Book flights online | iGoose Airlines</title>
 </head>
 
-<body>
-    <header>
-        <div class="left_header">
-            <nav>
-                <a href="index.html">igooseFly</a>
-            </nav>
-        </div>
-        <div class="right_header">
-            <nav>
-                <div class="right_header_up">
-                    <a href="header/helpContact.html">Help & Contact</a>
-                    <a href="header/userAccount.html">My account</a>
-                    <a href="header/contacts.html">Follow Us</a> |
-                    <a href="" class="lang_en_text">En</a>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__section headerLeftHalf">
+                    <div class="header__item headerLogo">
+                        <a href="index.html">igooseFly</a>
+                    </div>
                 </div>
-            </nav>
-            <nav>
-                <div class="right_header_down">
-                    <a href="header/bookFlight.html">Book a flight</a>
-                    <a href="header/flightInfo.html">Flight info</a>
-                    <a href="header/destinations.html">Destinations</a>
-                    <a href="header/iMiles.html">iMiles</a>
+                <div class="header__section headerRightHalf">
+                    <div class="header__section rightHeaderTopLevel">
+                        <div class="header__item headerButton">
+                            <a href="header/helpContact.html">Help & Contact</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="header/userAccount.html">My account</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="header/contacts.html">Follow Us</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            |
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="#">En</a>
+                        </div>
+                    </div>
+                    <div class="header__section rightHeaderBottomLevel">
+                        <div class="header__item headerButton">
+                            <a href="header/bookFlight.html">Book a flight</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="header/flightInfo.html">Flight info</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="header/destinations.html">Destinations</a>
+                        </div>
+                        <div class="header__item headerButton">
+                            <a href="header/iMiles.html">iMiles</a>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        </div>
-    </header>
+            </header>
 
-    <main role="main">
-        <div class="tagline">
-            <p>Where will tomorrow <br> take you?</p>
-        </div>
-        <div class="windows">
-            <div class="left_window">
-                <a href="body/flightPass.html" class="window_bottom_click">
-                    <div class="left_window_bottom_click_text">flight pass</div>
-                </a>
-            </div>
+            <main class="main">
+                    <div class="main__section mainTopLevel">
+                        <div class="mainTopLevel__item tagline">
+                            Where will tomorrow <br> take you?
+                        </div>
+                    </div>
+                    <div class="main__section mainBottomLevel">
+                        <div class="mainBottomLevel__section windowContainer">
+                            <div class="mainBottomLevel__item window-1">
+                                <a href="body/flightPass.html" class="window__item window-1_half">
+                                    <div class="window-1__item windowClick">flight pass</div>
+                                </a>
+                            </div>
+                            <div class="mainBottomLevel__item window-2">
+                                <a href="header/bookFlight.html" class="window__item window-2_half">
+                                    <div class="window-1__item windowClick">book now</div>
+                                </a>
+                            </div>
+                            <div class="mainBottomLevel__item window-3">
+                                <a href="body/onlineCheckIn.html" class="window__item window-3_half">
+                                    <div class="window-1__item windowClick">check-in</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </main>
 
-            <div class="middle_window">
-                <a href="header/bookFlight.html" class="window_bottom_click">
-                    <div class="middle_window_bottom_click_text">book now</div>
-                </a>
-            </div>
-
-            <div class="right_window">
-                <a href="body/onlineCheckIn.html" class="window_bottom_click">
-                    <div class="right_window_bottom_click_text">check in</div>
-                </a>
-            </div>
+            <footer class="footer">
+                <div class="footer__section footerTopLevel">
+                    <div class="footer__item footerButton">
+                        <a href="footer/conditionsNotices.html">Conditions & Notices</a>
+                    </div>
+                    <div class="footer__item footerButton">
+                        <a href="footer/privacyNote.html">Privacy Notice</a>
+                    </div>
+                    <div class="footer__item footerButton">
+                        <a href="footer/downloadApp.html">Download our App now!</a>
+                    </div>
+                    <div class="footer__item footerButton">
+                        <a href="footer/paymentMethods.html">Payment Methods</a>
+                    </div>
+                    <div class="footer__item footerButton">
+                        <a href="footer/feedback.html">Leave your feedback</a>
+                    </div>
+                </div>
+                <div class="footer__section footerBottomLevel">
+                    <div class="header__item footerButton">
+                        <a href="https://github.com/igoose87">igoose87 2022 &copy;</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-
-    </main>
-
-    <footer>
-        <div class="top_footer">
-            <a href="footer/conditionsNotices.html">Conditions & Notices</a>
-            <a href="footer/privacyNote.html">Privacy Notice</a>
-            <a href="footer/downloadApp.html">Download our App now!</a>
-            <a href="footer/paymentMethods.html">Payment Methods</a>
-            <a href="footer/feedback.html">Leave your feedback</a>
-        </div>
-        <div class="bottom_footer">
-            <p>2022 igooseFly &copy;</p>
-        </div>
-    </footer>
-</body>
+    </body>
 </html>
