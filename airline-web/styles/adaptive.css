@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1840px) {
+    .mainBottomLevel__item {
+        display: flex;
+        width: 266px;
+        height: 320px;
+        border: 2px solid #041542;
+        border-radius: 107px;
+        margin: 0 66px 0;
+        background-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .window__item {
+        display: block;
+        width: 266px;
+        height: 120px;
+        border-top: 2px solid #041542;
+        border-radius: 0 0 107px 107px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .windowClick {
+        color: #041542;
+        font-size: 21px;
+        text-transform: uppercase;
+        white-space: pre;
+        user-select: none;
+        margin-top: 50px;
+    }
+
+    .window__item:hover {
+        background-color: rgba(220, 220, 220, 0.87);
+        font-size: 32px;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 1410px) {
+    .mainBottomLevel__item {
+        display: flex;
+        width: 212px;
+        height: 256px;
+        border: 2px solid #041542;
+        border-radius: 86px;
+        margin: 0 59px 0;
+        background-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .window__item {
+        display: block;
+        width: 212px;
+        height: 96px;
+        border-top: 2px solid #041542;
+        border-radius: 0 0 86px 86px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .windowClick {
+        color: #041542;
+        font-size: 17px;
+        text-transform: uppercase;
+        white-space: pre;
+        user-select: none;
+        margin-top: 30px;
+    }
+
+    .window__item:hover {
+        background-color: rgba(220, 220, 220, 0.87);
+        font-size: 26px;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 1248px) {
+    .mainBottomLevel__item {
+        display: flex;
+        width: 212px;
+        height: 256px;
+        border: 2px solid #041542;
+        border-radius: 86px;
+        margin: 0 30px 0;
+        background-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .window__item {
+        display: block;
+        width: 212px;
+        height: 96px;
+        border-top: 2px solid #041542;
+        border-radius: 0 0 86px 86px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .windowClick {
+        color: #041542;
+        font-size: 17px;
+        text-transform: uppercase;
+        white-space: pre;
+        user-select: none;
+        margin-top: 30px;
+    }
+
+    .window__item:hover {
+        background-color: rgba(220, 220, 220, 0.87);
+        font-size: 26px;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainBottomLevel__item {
+        display: flex;
+        width: 212px;
+        height: 256px;
+        border: 2px solid #041542;
+        border-radius: 86px;
+        margin: 0 30px 0;
+        background-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .window__item {
+        display: block;
+        width: 212px;
+        height: 96px;
+        border-top: 2px solid #041542;
+        border-radius: 0 0 86px 86px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .windowClick {
+        color: #041542;
+        font-size: 17px;
+        text-transform: uppercase;
+        white-space: pre;
+        user-select: none;
+        margin-top: 30px;
+    }
+
+    .window__item:hover {
+        background-color: rgba(220, 220, 220, 0.87);
+        font-size: 26px;
+        font-weight: bolder;
+    }
+}
