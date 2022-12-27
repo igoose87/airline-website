@@ -116,7 +116,7 @@
         height: 150px;
         border: 2px solid #041542;
         border-radius: 86px;
-        margin: 140px 30px 0;
+        margin: 140px 30px 50px;
         background-color: rgba(255, 255, 255, 0.22);
         justify-content: end;
     }
